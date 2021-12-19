@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">TACO AL RATO</string>
+    <string name="go_food">taco al rato</string>
+    <string name="menu">Menu</string>
+    <string name="servicios">Servicios</string>
+    <string name="find_us">Encuentranos</string>
+    <string name="te_lo_llevamos">Domicilios</string>
+    <string name="login">Login</string>
+    <string name="empleados">Nuestros colaboradores</string>
+    <string name="loguser">BDOracle</string>
+    <string name="descriptionfood8">description of delicious food</string>
+    <string name="descriptionfood7">description of delicious food</string>
+    <string name="descriptionfood6">description of delicious food</string>
+    <string name="descriptionfood5">description of delicious food</string>
+    <string name="descriptionfood4">description of delicious food</string>
+    <string name="descriptionfood3">description of delicious food</string>
+    <string name="descriptionfood2">description of delicious food</string>
+    <string name="descriptionfood1">description of delicious food</string>
+    <string name="title_food8">name of dish</string>
+    <string name="title_food7">name of dish</string>
+    <string name="title_food6">name of dish</string>
+    <string name="title_food5">name of dish</string>
+    <string name="title_food4">name of dish</string>
+    <string name="title_food3">name of dish</string>
+    <string name="title_food2">name of dish</string>
+    <string name="title_food1">name of dish</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="servicios1">Excelente servicio</string>
+    <string name="service2">Nosotros te lo llevamos</string>
+    <string name="service3">Disfruta con tranquilidad tus espacios de tiempo, nosotros te lo llevamos.</string>
+    <string name="service4">Organiza tus eventos con tematica Mexicana...sientete como en la ciudad de los tacos!</string>
+    <string name="service5">Cada semana tenemos nuevas ofertas que te haran elevar tu nivel de chile!</string>
+    <string name="service7">Eventos</string>
+    <string name="service8">Promociones</string>
+    <string name="todo">mmm</string>
+    <string name="location1">Ubica nuestro punto mas cercano</string>
+    <string name="loctation2">Maps</string>
+    <string name="ubic">Ubicanos en: *av123cll  *caw678villas *890stvivi *road4via21</string>
+    <string name="CONSTRUCCION">UNDER CONSTRUCTION</string>
+    <string name="action_add">Agregar</string>
+    <string name="BTNactualizar">Actualizar</string>
+    <string name="BTNeliminar">Eliminar</string>
+    <string name="BTNconsultar">Consultar</string>
+    <string name="BTNinsertar">Insertar</string>
+    <string name="campo3">Precio</string>
+    <string name="campo2">Descripcion</string>
+    <string name="campo1">Nombre del producto</string>
+    <string name="id">ID</string>
+    <string name="deliver1">BIENVENIDOS A TACO AL RATO, EL MEJOR LUGAR DE TACOS EN LA CIUDAD </string>
+    <string name="delive2">ESTAMOS PARA SERVIRTE, DEJANOS SABER EN QUE TE PODEMOS AYUDAR</string>
+    <string name="EMPLOYMESSE">¡Bienvenido! RECUERDA INGRESAR LOS PRODUCTOS DEL MENU O ACTUALIZARLOS</string>
+    <string name="btnget">enviar/obtener</string>
+    <string name="registrarinf">registrarinf</string>
+    <string name="actualizarinf">actualizarinf</string>
+    <string name="borrarinf">borrarinf</string>
+    <string name="string_borrarinf">borrarinfoe</string>
+    <string name="namebd">namebd</string>
+    <string name="descripcionbd">descripcionbd</string>
+    <string name="preciobd">preciobd</string>
+    <string name="idbd">idbd</string>
+    <string name="tvName2">Elige tu nivel de picante</string>
+
+
+    <string name="string_traertodo">todotraer</string>
+
+</resources>

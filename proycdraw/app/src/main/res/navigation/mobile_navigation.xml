@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+    app:startDestination="@+id/nav_Menu">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proycdraw.ui.productos.MenuFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_menu"/>
+    <fragment
+        android:id="@+id/nav_servicios"
+        android:name="com.example.proycdraw.ui.servicios.ServiciosFragment"
+        android:label="@string/servicios"
+        tools:layout="@layout/fragment_servicios" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.proycdraw.ui.ubicacion.LocationFragment"
+        android:label="@string/location1"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/nav_delivery"
+        android:name="com.example.proycdraw.ui.domicilios.DeliveryFragment"
+        android:label="@string/te_lo_llevamos"
+        tools:layout="@layout/fragment_delivery" />
+    <fragment
+        android:id="@+id/nav_onuser"
+        android:name="com.example.proycdraw.ui.users.OnUserFragment"
+        android:label="@string/loguser"
+        tools:layout="@layout/fragment_on_user" />
+    <fragment
+        android:id="@+id/nav_onemployes"
+        android:name="com.example.proycdraw.ui.empleados.OnEmployesFragment"
+        android:label="@string/empleados"
+        tools:layout="@layout/fragment_on_employes" />
+</navigation>

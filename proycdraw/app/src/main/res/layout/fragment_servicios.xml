@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/white"
+    tools:context=".ui.servicios.ServiciosFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleservicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/servicios1"
+            android:textColor="#490505"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarSize="5dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/servimage1"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/alpastor" />
+
+                    <ImageView
+                        android:id="@+id/servimage2"
+                        android:layout_width="248dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/burrito"
+                        />
+
+                    <ImageView
+                        android:id="@+id/servimage3"
+                        android:layout_width="248dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/enchilada2" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="221dp"
+            android:fillViewport="true"
+            android:scrollbarSize="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/otroservi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/andika"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/service8"
+                    android:textColor="#490505"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="207dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtservice2"
+                        android:layout_width="175dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="@font/arima_madurai_light"
+                        android:gravity="center|start|top"
+                        android:inputType="textMultiLine"
+                        android:text="@string/service5"
+                        android:textColor="#490505"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/servimageB"
+                        android:layout_width="173dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/frijol1"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/eventservi4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/andika"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="@string/service7"
+                    android:textColor="#490505"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/servimage6"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:src="@drawable/nachoatun" />
+
+                <TextView
+                    android:id="@+id/txtservice5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/arima_madurai_light"
+                    android:gravity="center|start|top"
+                    android:inputType="textMultiLine"
+                    android:text="@string/service4"
+                    android:textColor="#490505"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/Domiservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="@string/service2"
+            android:textColor="#490505"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/servimage4"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tacomolida" />
+
+            <TextView
+                android:id="@+id/txtservice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/arima_madurai_light"
+                android:foregroundGravity="center"
+                android:gravity="center|start|top"
+                android:inputType="textMultiLine"
+                android:text="@string/service3"
+                android:textColor="#490505"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

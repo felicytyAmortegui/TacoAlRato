@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/go_food">
+
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_Menu"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_action_menu"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_servicios"
+        android:title="@string/servicios"
+        android:icon="@drawable/ic_action_iserv"/>
+    <item
+        android:id="@+id/nav_location"
+        android:title="@string/find_us"
+        android:icon="@drawable/ic_action_findusa"/>
+    <item
+        android:id="@+id/nav_delivery"
+        android:title="@string/te_lo_llevamos"
+        android:icon="@drawable/ic_action_sales"/>
+
+    </group>
+
+    <item android:title="@string/login" >
+
+    <menu>
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_onemployes"
+        android:title="@string/empleados"
+        android:icon="@drawable/ic_action_identif"
+        />
+        <item
+            android:id="@+id/nav_onuser"
+            android:title="@string/loguser"
+            android:icon="@drawable/ic_action_identifemp"
+            />
+
+    </group>
+    </menu>
+
+    </item>
+
+</menu>
+
